@@ -8,20 +8,20 @@ import LikeButton from '../components/Likebtn';
 
 
 
-const Features = () => {
+const Portfolio = () => {
 
     return (
         <div className='bg-[#ecf0f3] pb-20 pt-20'>
-            <div className='max-w-full mx-6 sm:mx-16 md:mx-24 lg:mx-36 grid '>
+            <div className='max-w-full mx-6 sm:mx-16 md:mx-10 lg:mx-36 grid '>
                 <div className='p-4 mt-16'>
                     <h3 className='text-lg font-semibold text-[#fa2828]'>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h3>
                     <h1 className="text-4xl sm:text-5xl md:text-6xl mt-2 mb-6 font-bold">My Portfolio</h1>
                 </div>
 
-                <div className="text-primary-content gap-y-14 mt-10 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6  ">
+                <div className="text-primary-content  grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 ">
 
                     {/* Card 1 */}
-                    <div className="card w-96 bg-[##EEF2F4] shadow-xl bg-gradient-to-br from-[#e3e9ed] to-[#FDFDFE] hover:scale-100 duration-500 cursor-pointer" style={{
+                    <div className="card w-96 md:w-[20rem] bg-[##EEF2F4] shadow-xl bg-gradient-to-br from-[#e3e9ed] to-[#FDFDFE] hover:scale-100 duration-500 cursor-pointer" style={{
                         boxShadow: '7px 5px 28px 0px rgba(0, 0, 0, 0.15), -12px -15px 12px 0px #FFF'
                     }}>
                         <div className="overflow-hidden rounded-xl mx-10 mt-10">
@@ -42,7 +42,7 @@ const Features = () => {
                     </div>
 
                     {/* Card 2 */}
-                    <div className="card w-96 bg-[##EEF2F4] shadow-xl bg-gradient-to-br from-[#e3e9ed] to-[#FDFDFE] hover:scale-100 duration-500 cursor-pointer" style={{
+                    <div className="card w-96 md:w-[20rem] bg-[##EEF2F4] shadow-xl bg-gradient-to-br from-[#e3e9ed] to-[#FDFDFE] hover:scale-100 duration-500 cursor-pointer" style={{
                         boxShadow: '7px 5px 28px 0px rgba(0, 0, 0, 0.15), -12px -15px 12px 0px #FFF'
                     }}>
                         <div className="overflow-hidden rounded-xl mx-10 mt-10">
@@ -63,7 +63,7 @@ const Features = () => {
                     </div>
 
                     {/* Card 3 */}
-                    <div className="card w-96 bg-[##EEF2F4] shadow-xl bg-gradient-to-br from-[#e3e9ed] to-[#FDFDFE] hover:scale-100 duration-500 cursor-pointer" style={{
+                    <div className="card w-96 md:w-[20rem] bg-[##EEF2F4] shadow-xl bg-gradient-to-br from-[#e3e9ed] to-[#FDFDFE] hover:scale-100 duration-500 cursor-pointer" style={{
                         boxShadow: '7px 5px 28px 0px rgba(0, 0, 0, 0.15), -12px -15px 12px 0px #FFF'
                     }}>
                         <div className="overflow-hidden rounded-xl mx-10 mt-10">
@@ -84,7 +84,7 @@ const Features = () => {
                     </div>
 
                     {/* Card 4 */}
-                    <div className="card w-96 bg-[##EEF2F4] shadow-xl bg-gradient-to-br from-[#e3e9ed] to-[#FDFDFE] hover:scale-100 duration-500 cursor-pointer" style={{
+                    <div className="card w-96 md:w-[20rem] bg-[##EEF2F4] shadow-xl bg-gradient-to-br from-[#e3e9ed] to-[#FDFDFE] hover:scale-100 duration-500 cursor-pointer" style={{
                         boxShadow: '7px 5px 28px 0px rgba(0, 0, 0, 0.15), -12px -15px 12px 0px #FFF'
                     }}>
                         <div className="overflow-hidden rounded-xl mx-10 mt-10">
@@ -103,7 +103,7 @@ const Features = () => {
                     </div>
 
                     {/* Card 5 */}
-                    <div className="card w-96 bg-[##EEF2F4] shadow-xl bg-gradient-to-br from-[#e3e9ed] to-[#FDFDFE] hover:scale-100 duration-500 cursor-pointer" style={{
+                    <div className="card w-96 bg-[##EEF2F4] shadow-xl bg-gradient-to-br from-[#e3e9ed] to-[#FDFDFE] hover:scale-100 md:w-[20rem] duration-500 cursor-pointer" style={{
                         boxShadow: '7px 5px 28px 0px rgba(0, 0, 0, 0.15), -12px -15px 12px 0px #FFF'
                     }}>
                         <div className="overflow-hidden rounded-xl mx-10 mt-10">
@@ -123,7 +123,7 @@ const Features = () => {
                     </div>
 
                     {/* Card 6 */}
-                    <div className="card w-96 bg-[##EEF2F4] shadow-xl bg-gradient-to-br from-[#e3e9ed] to-[#FDFDFE] hover:scale-100 duration-500 cursor-pointer" style={{
+                    <div className="card w-96 md:w-[20rem] bg-[##EEF2F4] shadow-xl bg-gradient-to-br from-[#e3e9ed] to-[#FDFDFE] hover:scale-100 duration-500 cursor-pointer" style={{
                         boxShadow: '7px 5px 28px 0px rgba(0, 0, 0, 0.15), -12px -15px 12px 0px #FFF'
                     }}>
                         <div className="overflow-hidden rounded-xl mx-10 mt-10">
@@ -149,4 +149,4 @@ const Features = () => {
     )
 }
 
-export default Features;
+export default Portfolio;

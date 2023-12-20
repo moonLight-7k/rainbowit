@@ -40,11 +40,11 @@ const Hero = () => {
                 <div className="max-w-3xl min-w-md">
                     <p className="py-2  sm:mb-4 font-sans">WELCOME TO MY WORLD</p>
                     <div className="text sm:mt-6">
-                        <div className='flex flex-col lg:flex-row gap-4'>
+                        <div className='flex md: flex-col lg:flex-row gap-4'>
                             <h1 className="text-4xl lg:text-[68px] font-bold w-md mb-2 lg:mb-0">Hi, I’m</h1>
-                            <h1 className="text-4xl lg:text-[68px] text-[#FF014F] font-bold w-md mb-2 lg:mb-0 ">Jone Lee</h1>
+                            <h1 className="text-4xl lg:text-[68px] text-[#FF014F] font-bold w-md mb-2 lg:mb-0 md:-mt-4">Jone Lee</h1>
                         </div>
-                        <h1 className="text-4xl sm:text-[70px] font-bold w-md mb-2 lg:mb-0 sm:mt-8">a  <TextAnimation /></h1>
+                        <h1 className="text-4xl sm:text-[70px] md:text-4xl md:-mt-1 font-bold w-md mb-2 lg:mb-0 sm:mt-8">a  <TextAnimation /></h1>
                     </div>
 
                     <p className="py-6 text-lg max-w-xl">I use animation as a third dimension by which to simplify experiences and guiding through each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
