@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 const Resume = () => {
-    const [activeButton, setActiveButton] = useState("");
+    const [activeButton, setActiveButton] = useState("Education");
 
     const handleClick = (buttonName) => {
         setActiveButton(buttonName);

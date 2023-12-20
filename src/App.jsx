@@ -7,10 +7,8 @@ import Blogs from './components/Blogs';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
+import Clients from './components/Clients';
 import Pricing from './components/Pricing';
-
-
-
 
 
 function App() {
@@ -23,6 +21,7 @@ function App() {
       <Features />
       <Portfolio />
       <Resume />
+      <Clients />
       <Pricing />
       <Blogs />
       <Contact />
